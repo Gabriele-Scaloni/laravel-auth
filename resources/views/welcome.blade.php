@@ -80,30 +80,14 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
 
-                {{-- così importo il componente ExampleComponent, ma lo devo dichiarare in app.js, ExampleComponent corrisponde a example-component
-                poi le lettere maiuscole (non quella iniziale) sono tradotte con un - seguito dalla lettera ma in minuscolo 
-                 ma decommentando le 2 righe sopra automatizzo, mi legge e monta tutti i file in components --}}
-                <example-component>
+            {{-- così importo il componente ExampleComponent, ma lo devo dichiarare in app.js, ExampleComponent corrisponde a example-component
+            poi le lettere maiuscole (non quella iniziale) sono tradotte con un - seguito dalla lettera ma in minuscolo. 
+            ma decommentando le 2 righe sopra automatizzo le lettura, mi legge e monta tutti i file in components --}}
 
-                    <h2>js</h2>
 
-                </example-component>
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+            <new-component>ciao</new-component>
+
         </div>
     </body>
 </html>

@@ -25,6 +25,10 @@ window.Vue = require('vue');
  files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 
+
+/*  exemple-component é un nome che assegno per poi usarlo come tag in layouts welcome 
+ma dovrei usare ogno riga per chiamare ogni componente, per questo si decommenta(e quindi usa) la funzione sopra
+ */
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 /**
