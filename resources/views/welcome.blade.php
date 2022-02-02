@@ -84,9 +84,13 @@
             {{-- così importo il componente ExampleComponent, ma lo devo dichiarare in app.js, ExampleComponent corrisponde a example-component
             poi le lettere maiuscole (non quella iniziale) sono tradotte con un - seguito dalla lettera ma in minuscolo. 
             ma decommentando le 2 righe sopra automatizzo le lettura, mi legge e monta tutti i file in components --}}
+            <example-component>
 
+                <h2>js</h2>
 
-            <new-component>ciao</new-component>
+            </example-component>
+
+           
 
         </div>
     </body>
